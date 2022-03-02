@@ -28,3 +28,19 @@ int main()
     printf("Length in inches is %f \n", inches);
     return 0;
 }  
+
+
+#include <iostream>
+
+int main()
+{
+  float cm,inches;
+
+  std::cout << "Enter a length in cm : " << std::endl;
+  std::cin >> cm;
+
+  std::cout << "Length in inches is " << (cm/2.54);
+
+  return 0;
+  
+}
